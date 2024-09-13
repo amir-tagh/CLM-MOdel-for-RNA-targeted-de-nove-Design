@@ -1,4 +1,4 @@
-# CLM-MOdel-for-RNA-targeted-de-nove-Design
+# CLM-Model-for-RNA-targeted-de-nove-Design
 
 ## Script Breakdown:
 Loading and Preprocessing:
