@@ -6,7 +6,7 @@ Loading and Preprocessing:
 The script assumes you have a CSV file with a column SMILES containing SMILES strings.
 
 It loads the SMILES data, tokenizes the characters in SMILES, and vectorizes them into sequences.
-![Smiles-dist](https://github.com/user-attachments/assets/37a8fdbd-7ab4-4349-aed5-676ac6aff8f2)
+
 
 Model Architecture:
 
@@ -66,6 +66,9 @@ Plots a histogram of the lengths of the generated SMILES strings.
 After training the model, you can provide a seed SMILES string (e.g., "CCO") to the generate_smiles function, which will generate a new SMILES string based on the trained model.
 
 The generated SMILES is saved to a file (generated_smiles.txt) using save_generated_smiles.
+![Smiles-dist](https://github.com/user-attachments/assets/854ba045-777b-4b70-825d-67ce4e582397)
+
+
 
 The plot_generated_smiles function generates a histogram of the lengths of the generated SMILES strings to give a visual overview of the results.
 
