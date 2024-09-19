@@ -6,6 +6,7 @@ Loading and Preprocessing:
 The script assumes you have a CSV file with a column SMILES containing SMILES strings.
 
 It loads the SMILES data, tokenizes the characters in SMILES, and vectorizes them into sequences.
+![Smiles-dist](https://github.com/user-attachments/assets/37a8fdbd-7ab4-4349-aed5-676ac6aff8f2)
 
 Model Architecture:
 
