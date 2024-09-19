@@ -73,17 +73,27 @@ The generated SMILES is saved to a file (generated_smiles.txt) using save_genera
 The plot_generated_smiles function generates a histogram of the lengths of the generated SMILES strings to give a visual overview of the results.
 
 usage: LSTM_model_on_SMILES_parallel_GPU_Contrastive_learning_save_pkl_V7_Working_V7.py
+
        [-h] --input_csv INPUT_CSV [--seed_smiles SEED_SMILES]
+       
        [--num_generate NUM_GENERATE]
 
  -h, --help            show this help message and exit
+ 
   --input INPUT         Input CSV file containing SMILES strings.
+  
   --batch_size BATCH_SIZE
+  
                         Batch size for training.
+                        
   --max_length MAX_LENGTH
+  
                         Maximum length of SMILES strings.
+                        
   --epochs EPOCHS       Number of epochs for training.
+  
   --margin MARGIN       Margin for contrastive loss.
+  
   --gpu                 Enable GPU training.
 
 
